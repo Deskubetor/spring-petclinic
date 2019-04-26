@@ -1,4 +1,6 @@
 language: java
 jdk: oraclejdk8
 before_install:
-  - echo $PATH
+  - echo $TRAVIS_COMMIT
+  - echo $TRAVIS_TAG
+  - echo $TRAVIS_BRANCH
