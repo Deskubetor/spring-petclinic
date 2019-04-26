@@ -1,5 +1,7 @@
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Deskubetor_spring-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=Deskubetor_spring-petclinic)
+
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
