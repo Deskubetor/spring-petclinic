@@ -1,14 +1,15 @@
 language: java
 jdk: oraclejdk8
+services:
+  - docker
 before_install:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
   - echo $TRAVIS_BRANCH
+  - docker build -t petclinic:$TRAVIS_BUILD_NUMBER .
 addons:
   sonarcloud:
     organization: "deskubetor-github" # the key of the org you chose at step #3
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
-services:
-  - docker
